@@ -1,0 +1,19 @@
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+#my-name {
+  color: green;
+}

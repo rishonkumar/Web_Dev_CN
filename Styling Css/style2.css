@@ -1,0 +1,32 @@
+#container {
+  height: auto;
+  width: auto;
+  background-color: lightpink;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#container div {
+  height: 200px;
+  width: 200px;
+}
+
+#div1 {
+  background-color: yellowgreen;
+}
+
+#div2 {
+  background-color: tan;
+}
+
+#div3 {
+  background-color: silver;
+}
+
+#div4 {
+  background-color: violet;
+}
+
+#div5 {
+  background-color: burlywood;
+}

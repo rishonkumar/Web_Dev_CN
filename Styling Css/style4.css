@@ -1,0 +1,23 @@
+#container {
+  height: 500px;
+  width: 500px;
+  background-color: lightpink;
+  display: flex;
+  justify-content: flex-end;
+}
+#container div {
+  height: 100px;
+  width: 100px;
+}
+
+#div1 {
+  background-color: yellowgreen;
+}
+
+#div2 {
+  background-color: tan;
+}
+
+#div3 {
+  background-color: rgb(20, 39, 216);
+}

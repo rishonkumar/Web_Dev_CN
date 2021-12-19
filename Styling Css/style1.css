@@ -1,0 +1,30 @@
+html {
+  font-size: 20px;
+}
+
+#outer-div {
+  border: 2px solid black;
+  margin: 20px;
+  /*relative*/
+  position: relative;
+}
+
+#div1 {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+}
+
+#div2 {
+  height: 200px;
+  width: 200px;
+  background-color: bisque;
+  position: absolute;
+  left: 20px;
+}
+
+#div3 {
+  height: 200px;
+  width: 200px;
+  background-color: maroon;
+}
