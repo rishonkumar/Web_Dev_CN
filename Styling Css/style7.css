@@ -1,0 +1,16 @@
+p {
+  background-color: beige;
+}
+p::before {
+  content: "Before";
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+p::after {
+  content: "After";
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
