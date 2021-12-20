@@ -1,6 +1,19 @@
 p {
   background-color: beige;
 }
+
+ul {
+  list-style: none;
+}
+li::before {
+  content: "";
+  background-image: url(applelogo.png);
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+  background-size: contain;
+}
+
 p::before {
   content: "Before";
   font-size: 2rem;
